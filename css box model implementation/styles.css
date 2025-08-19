@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1170px;
+    height: auto;
+    margin : 0 auto;
+}
+
+/*-------------------ROW 1------------------------ */
+.container .row1{
+    height: 200px;
+    width: 1170px;
+}
+
+.container .row1 .col1{
+    width: 370px;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.container .row1 .col2{
+    width: 800px;
+    height: 200px;
+    float: right;
+    background-color: lightskyblue;
+}
+
+/*-------------------ROW 2------------------------ */
+.container .row2{
+    height: 300px;
+    width: 1170px;
+}
+.container .row2 .col1{
+    width: 370px;
+    height: 300px;
+    float: left;
+    background-color: lightcoral;
+}
+.container .row2 .col2{
+    width: 800px;
+    height: 300px;
+    float: right;
+    background-color: lightgreen;
+}
+
+/*-------------------ROW 3----------------------- */
+.container .row3{
+    height: 200px;
+    width: 1170px;
+}
+.container .row3 .col1{
+    width: 370px;
+    height: 200px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+.container .row3 .col2{
+    width: 400px;
+    height: 200px;
+    float: right;
+    background-color: lightpink;
+}
+.container .row3 .col3{
+    width: 400px;
+    height: 200px;
+    float: right;
+    background-color: lightseagreen;
+}
+
+/*-------------------ROW 4----------------------- */
+.container .row4{
+    height: 300px;
+    width: 1170px;
+}
+.container .row4 .col1{
+    width: 370px;
+    height: 300px;
+    float: left;
+    background-color: lightsteelblue;
+}
+.container .row4 .col2{
+    width: 800px;
+    height: 300px;
+    float: right;
+    background-color: lightyellow;
+}
+
+/*-------------------ROW 5------------------------ */
+.container .row5{
+    height: 200px;
+    width: 1170px;
+}
+.container .row5 .col1{
+    width: 1170px;
+    height: 200px;
+    background-color: lightgray;
+}
