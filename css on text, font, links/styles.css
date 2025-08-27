@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.text{
+    width: 85%;
+    height: auto;
+}
+.text h1{
+    text-align: center;
+    color: rgb(255, 149, 0);
+    font-family: "Story Script", sans-serif;
+    font-size: 40px;
+}
+.text p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+}
+.text ol{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(108, 108, 253);
+    margin-bottom: 20px;
+}
+.text ol ul{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.link{
+    margin-top: 20px;
+}
+.link h3{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.516);
+    font-family: "Story Script", sans-serif;
+}
+.link .linkTag{
+    font-size: 20px; 
+    cursor: pointer;
+    margin-left: 50px;
+}
+.linkTag button{
+    font-size: 20px;
+    background-color: rgb(179, 255, 0);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
