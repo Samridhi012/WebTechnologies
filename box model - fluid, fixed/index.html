@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hybrid Layout</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <!-- Row 1: Fluid Header -->
+  <div class="row1">
+    <div class="content-box header-flex">
+      <div class="logo">
+        <img src="../html tasks/images/1.webp" alt="Logo">
+      </div>
+      <div class="right-group">
+        <div class="contact">Contact: +123456789</div>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank"><img src=" " alt="Facebook"></a>
+          <a href="https://twitter.com/" target="_blank"><img src=" " alt="Twitter"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src=" " alt="Instagram"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Fluid Navbar -->
+  <div class="row2">
+    <div class="content-box">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+  </div>
+
+  <!-- Row 3: Fluid Slides -->
+  <div class="row3">
+    <div class="content-box">
+      <img src="../html tasks/images/2.webp" alt="Slide">
+    </div>
+  </div>
+
+  <!-- Row 4: Fixed 3 Boxes -->
+  <div class="row4 container">
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <div class="box-content">
+      <img src="../html tasks/images/3.webp" alt="Image">
+      <p>Some text content goes here aligned with boxes.</p>
+    </div>
+  </div>
+
+  <!-- Row 5: Fluid Button + Image + Text -->
+  <div class="row5">
+    <div class="content-box">
+      <button>Click Me</button>
+      <img src="../html tasks/images/4.webp" alt="Image">
+      <p>Centered description text here.</p>
+    </div>
+  </div>
+
+  <!-- Row 6: Fixed Text + Full Registration Form -->
+  <div class="row6 container">
+    <div class="text-left">
+      <p>Stay in touch with us!</p>
+    </div>
+    <div class="form-right">
+      <form>
+        <!-- Name -->
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </p>
+
+        <!-- Email -->
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </p>
+
+        <!-- Password -->
+        <p>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </p>
+
+        <!-- Gender -->
+        <p>Gender:<br>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+        </p>
+
+        <!-- Hobbies -->
+        <p>Hobbies:<br>
+          <input type="checkbox" id="reading" name="hobbies" value="Reading">
+          <label for="reading">Reading</label>
+          <input type="checkbox" id="sports" name="hobbies" value="Sports">
+          <label for="sports">Sports</label>
+          <input type="checkbox" id="music" name="hobbies" value="Music">
+          <label for="music">Music</label>
+        </p>
+
+        <!-- Address -->
+        <p>
+          <label for="address">Address:</label><br>
+          <textarea id="address" name="address" rows="4" placeholder="Enter your address"></textarea>
+        </p>
+
+        <!-- Submit -->
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Row 7: Fixed Footer -->
+  <div class="row7 container footer-flex">
+    <div class="footer-left">
+      <div class="footer-logo">
+        <img src="../html tasks/images/1.webp" alt="Footer Logo">
+      </div>
+      <div class="footer-contact">Contact: +123456789</div>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/" target="_blank"><img src=" " alt="Facebook"></a>
+      <a href="https://twitter.com/" target="_blank"><img src=" " alt="Twitter"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src=" " alt="Instagram"></a>
+    </div>
+    <div class="footer-text">
+      <p>© 2025 My Website</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
